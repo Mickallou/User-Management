@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <script defer src="./Script/main.js"></script>
+</head>
+
+<body>
+    <div class="container-register">
+        <div class="register-text m-2">
+            <h1>To register</h1>
+            <p>For to register enter your id ...</p>
+        </div>
+        <form id="regForm" class="register-form m-2">
+            <div class="form-control ">
+                <label for="fname">First name :</label>
+                <input type="text" name="fname" id="fname" required>
+            </div>
+            <div class="form-control ">
+                <label for="lname">Last name :</label>
+                <input type="text" name="lname" id="lname" required>
+            </div>
+            <div class="form-control ">
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-control ">
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="form-control ">
+                <input type="submit" value="To sent" id="submitBtn" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+    <div class="container-user-list m-2">
+        <div>
+            <h2>Register list ...</h2>
+        </div>
+        <table class="users-table">
+            <thead>
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
