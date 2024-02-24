@@ -106,6 +106,10 @@ th {
         margin-left: 0;
     }
 
+    input {
+        width: 80vw;
+    }
+
     table {
         width: 100%;
         border-collapse: collapse;
