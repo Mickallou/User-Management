@@ -91,3 +91,43 @@ th {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .container-register {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register-form {
+        flex-direction: column;
+    }
+
+    .form-control {
+        margin-left: 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        margin-left: 0;
+        font-size: 0.4rem;
+    }
+
+    th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        background-color: #f2f2f2;
+    }
+
+    .conBtn {
+        font-size: 0.3rem;
+        border-radius: 5px;
+        margin-bottom: 3px;
+        margin-top: 2px;
+        border: 1px solid #000;
+        width: 30px;
+        height: 25px;
+    }
+}
